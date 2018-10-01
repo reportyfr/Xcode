@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--myQuizViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="myQuizViewController" id="BYZ-38-t0r" customClass="MyQuizViewController" customModule="myQuiz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aZk-qE-mAv">
+                                <rect key="frame" x="83" y="138" width="201" height="44"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Solution" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSn-Fg-OTq">
+                                <rect key="frame" x="83" y="203" width="201" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Rg-gW-YeE">
+                                <rect key="frame" x="83" y="348" width="201" height="36"/>
+                                <fontDescription key="fontDescription" name="Verdana-Italic" family="Verdana" pointSize="20"/>
+                                <state key="normal" title="Solve"/>
+                                <connections>
+                                    <action selector="userPressSolveButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FEm-tt-yR3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CHs-5B-pmy">
+                                <rect key="frame" x="83" y="422" width="201" height="36"/>
+                                <fontDescription key="fontDescription" name="Verdana-Italic" family="Verdana" pointSize="20"/>
+                                <state key="normal" title="Play"/>
+                                <connections>
+                                    <action selector="usePressplayButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fz4-UN-3Rf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Expression" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kq8-j7-Ojd">
+                                <rect key="frame" x="83" y="86" width="201" height="44"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.85496367048851429" green="0.86933798107458515" blue="0.85137265434839371" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="3Rg-gW-YeE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="3Sd-pS-jWE"/>
+                            <constraint firstItem="DSn-Fg-OTq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="7zE-Ly-NG7"/>
+                            <constraint firstItem="aZk-qE-mAv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="CPI-Ns-FIh"/>
+                            <constraint firstItem="Kq8-j7-Ojd" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="D3T-g5-T1b"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aZk-qE-mAv" secondAttribute="trailing" constant="70" id="HWA-xw-4Px"/>
+                            <constraint firstItem="DSn-Fg-OTq" firstAttribute="top" secondItem="aZk-qE-mAv" secondAttribute="bottom" constant="10" id="MYz-bI-9K7"/>
+                            <constraint firstItem="CHs-5B-pmy" firstAttribute="top" secondItem="3Rg-gW-YeE" secondAttribute="bottom" constant="40" id="N1s-9y-vff"/>
+                            <constraint firstItem="CHs-5B-pmy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="VWv-K4-TgM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Kq8-j7-Ojd" secondAttribute="trailing" constant="70" id="Wlf-7K-S4p"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="CHs-5B-pmy" secondAttribute="bottom" constant="200" id="aRE-Gs-hgA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DSn-Fg-OTq" secondAttribute="trailing" constant="70" id="cCv-6X-1GS"/>
+                            <constraint firstItem="Kq8-j7-Ojd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="70" id="cPo-m1-BFG"/>
+                            <constraint firstItem="aZk-qE-mAv" firstAttribute="top" secondItem="Kq8-j7-Ojd" secondAttribute="bottom" constant="10" id="dKP-MA-U6r"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CHs-5B-pmy" secondAttribute="trailing" constant="70" id="mAO-te-pHh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="3Rg-gW-YeE" secondAttribute="trailing" constant="70" id="mgi-Fo-fXx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="expressionLabel" destination="Kq8-j7-Ojd" id="9fF-eS-EAP"/>
+                        <outlet property="playButton" destination="CHs-5B-pmy" id="7rt-TX-Xfh"/>
+                        <outlet property="solutionLabel" destination="DSn-Fg-OTq" id="sEu-q0-kFS"/>
+                        <outlet property="solveButton" destination="3Rg-gW-YeE" id="oce-Lx-fpo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-471.19999999999999" y="-87.706146926536732"/>
+        </scene>
+    </scenes>
+</document>
