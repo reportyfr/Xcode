@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A84667AA1DA6CA9000DA78D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84667A91DA6CA9000DA78D9 /* AppDelegate.swift */; };
+		A84667AC1DA6CA9000DA78D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84667AB1DA6CA9000DA78D9 /* ViewController.swift */; };
+		A84667AF1DA6CA9000DA78D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84667AD1DA6CA9000DA78D9 /* Main.storyboard */; };
+		A84667B11DA6CA9000DA78D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A84667B01DA6CA9000DA78D9 /* Assets.xcassets */; };
+		A84667B41DA6CA9000DA78D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A84667B21DA6CA9000DA78D9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A84667A61DA6CA9000DA78D9 /* GameZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84667A91DA6CA9000DA78D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A84667AB1DA6CA9000DA78D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A84667AE1DA6CA9000DA78D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A84667B01DA6CA9000DA78D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A84667B31DA6CA9000DA78D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A84667B51DA6CA9000DA78D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A84667A31DA6CA9000DA78D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A846679D1DA6CA8F00DA78D9 = {
+			isa = PBXGroup;
+			children = (
+				A84667A81DA6CA9000DA78D9 /* GameZ */,
+				A84667A71DA6CA9000DA78D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A84667A71DA6CA9000DA78D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A84667A61DA6CA9000DA78D9 /* GameZ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A84667A81DA6CA9000DA78D9 /* GameZ */ = {
+			isa = PBXGroup;
+			children = (
+				A84667A91DA6CA9000DA78D9 /* AppDelegate.swift */,
+				A84667AB1DA6CA9000DA78D9 /* ViewController.swift */,
+				A84667AD1DA6CA9000DA78D9 /* Main.storyboard */,
+				A84667B01DA6CA9000DA78D9 /* Assets.xcassets */,
+				A84667B21DA6CA9000DA78D9 /* LaunchScreen.storyboard */,
+				A84667B51DA6CA9000DA78D9 /* Info.plist */,
+			);
+			path = GameZ;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A84667A51DA6CA9000DA78D9 /* GameZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A84667B81DA6CA9000DA78D9 /* Build configuration list for PBXNativeTarget "GameZ" */;
+			buildPhases = (
+				A84667A21DA6CA9000DA78D9 /* Sources */,
+				A84667A31DA6CA9000DA78D9 /* Frameworks */,
+				A84667A41DA6CA9000DA78D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameZ;
+			productName = GameZ;
+			productReference = A84667A61DA6CA9000DA78D9 /* GameZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A846679E1DA6CA8F00DA78D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "My Pham";
+				TargetAttributes = {
+					A84667A51DA6CA9000DA78D9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = A84667A11DA6CA8F00DA78D9 /* Build configuration list for PBXProject "GameZ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A846679D1DA6CA8F00DA78D9;
+			productRefGroup = A84667A71DA6CA9000DA78D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A84667A51DA6CA9000DA78D9 /* GameZ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A84667A41DA6CA9000DA78D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84667B41DA6CA9000DA78D9 /* LaunchScreen.storyboard in Resources */,
+				A84667B11DA6CA9000DA78D9 /* Assets.xcassets in Resources */,
+				A84667AF1DA6CA9000DA78D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A84667A21DA6CA9000DA78D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A84667AC1DA6CA9000DA78D9 /* ViewController.swift in Sources */,
+				A84667AA1DA6CA9000DA78D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A84667AD1DA6CA9000DA78D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84667AE1DA6CA9000DA78D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A84667B21DA6CA9000DA78D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A84667B31DA6CA9000DA78D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A84667B61DA6CA9000DA78D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A84667B71DA6CA9000DA78D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A84667B91DA6CA9000DA78D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GameZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mypham.GameZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A84667BA1DA6CA9000DA78D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GameZ/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mypham.GameZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A84667A11DA6CA8F00DA78D9 /* Build configuration list for PBXProject "GameZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84667B61DA6CA9000DA78D9 /* Debug */,
+				A84667B71DA6CA9000DA78D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A84667B81DA6CA9000DA78D9 /* Build configuration list for PBXNativeTarget "GameZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A84667B91DA6CA9000DA78D9 /* Debug */,
+				A84667BA1DA6CA9000DA78D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A846679E1DA6CA8F00DA78D9 /* Project object */;
+}
